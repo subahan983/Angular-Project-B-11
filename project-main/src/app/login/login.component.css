@@ -1,0 +1,83 @@
+
+input {
+    
+    width: 25%;
+    padding: 10px;
+    border: 2px solid rgb(19, 15, 15);
+    border-radius: 40px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 415px;
+    margin-bottom: 40px;
+  }
+  button {
+    background-color: #6cc061;
+    padding: 10px;
+    color: black;
+    margin-top: 30px;
+    border: 2px solid rgb(19, 15, 15);
+    border-radius: 40px;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+    width: 15%;
+    margin-left: 440px;
+    margin-right: 10px;
+    align-content: center;
+
+  }
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: green;
+    border: 1px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    width: 15%;
+    margin-left: 440px;
+    margin-right: 10px;
+    align-content: center;
+    
+  }
+  
+  /* Style the container for inputs */
+  .container {
+   
+    padding-top: 100px;
+    text-align: right;
+    background-size:600px;
+    background-repeat: no-repeat;
+    vertical-align: center;
+    height: 100vh;
+    margin-top: 0px;
+    margin-left: 40px;
+    text-align: center;
+    background-image: url("giphy.gif");
+    background-size: 700px;
+    
+  }
+  
+  
+
+  /* Add a green text color and a checkmark when the requirements are right */
+  .valid {
+    color: green;
+  }
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "&#10004;";
+  }
+  /* Add a red text color and an "x" icon when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "&#10006;";
+  }
+  body {
+    background-color:#052635;
+  }

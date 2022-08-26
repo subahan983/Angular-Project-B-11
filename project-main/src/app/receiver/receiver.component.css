@@ -1,0 +1,92 @@
+h1{
+    text-align: center;
+}
+
+.divider{
+    position:absolute;
+    
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    background:url('../receiver/receiver.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+ 
+    
+
+}
+.n1,.n2,.n3,.n4,.n5{
+        position:absolute;
+        left:70%;
+        }
+.next_button{
+    position: absolute;
+    margin-left: 30%;
+}
+form{
+    position: relative;
+    margin-left:70px;
+}
+input[type=submit] {
+            color: inline-block;
+            padding: .75rem 1.25rem;
+            border-radius: 10rem;
+            color: rgb(14, 8, 8);
+            text-transform: uppercase;
+            background-color: burlywood;
+            font-size: 1rem;
+            letter-spacing: 0.15rem;
+            transition: all 0.3s;
+            position:absolute;
+            overflow: hidden;
+            z-index: 1;
+            text-decoration: none;
+            font-weight: bold;
+            left: 40%;
+            top: 105%;
+        }
+        input[type=submit]:after{
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(153, 245, 123, 0.945);
+            border-radius: 10rem;
+            z-index: -2;
+        }
+        input[type=submit]:before{
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0%;
+            height: 100%;
+            background-color: #424814;
+            transition: all 0.3s;
+            border-radius: 5rem;
+            z-index: -1;
+        }
+        input[type=submit]:hover{
+            color:rgb(255, 255, 255);
+            background-color: green;
+        }
+        input[type=submit]:hover:before{
+        width: 100%;
+}
+input {
+    
+    width: 25%;
+    padding: 10px;
+    border: 2px solid rgb(19, 15, 15);
+    border-radius: 40px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 40px;
+  }
+  label {
+      font-size: 30px;
+  }
